@@ -1,0 +1,12 @@
+function getLocation(coordinates, commands) {
+  let [x, y] = coordinates;
+
+  for (const cmd of commands) {
+    if (cmd === 'forward') y++;
+    else if (cmd === 'back') y--;
+    else if (cmd === 'right') x++;
+    else if (cmd === 'left') x--;
+  }
+
+  return [x, y];
+}
