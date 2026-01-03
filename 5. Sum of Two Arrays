@@ -1,0 +1,8 @@
+function getArraysSum(arr1, arr2) {
+  let sum = 0;
+
+  for (const n of arr1) sum += n;
+  for (const n of arr2) sum += n;
+
+  return sum;
+}
