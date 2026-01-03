@@ -17,4 +17,3 @@ focused on arrays, strings, loops, and logical reasoning.
 
 ## Purpose
 Practice core JavaScript concepts and problem-solving skills.
-# javascript-algorithms-practice
