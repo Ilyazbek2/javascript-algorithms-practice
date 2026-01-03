@@ -11,9 +11,5 @@ focused on arrays, strings, loops, and logical reasoning.
 - Array sum calculation
 - Letter counting
 
-## Tech
-- JavaScript (ES6)
-- No external libraries
-
 ## Purpose
 Practice core JavaScript concepts and problem-solving skills.
