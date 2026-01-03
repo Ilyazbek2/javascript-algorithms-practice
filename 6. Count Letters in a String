@@ -1,0 +1,11 @@
+function countLetters(input) {
+  let count = 0;
+
+  for (const ch of input) {
+    if (ch.toLowerCase() !== ch.toUpperCase()) {
+      count++;
+    }
+  }
+
+  return count;
+}
