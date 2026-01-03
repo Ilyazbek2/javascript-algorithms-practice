@@ -1,0 +1,11 @@
+function removeVowels(doc) {
+  let result = '';
+
+  for (const ch of doc) {
+    if (!'aeiouyAEIOUY'.includes(ch)) {
+      result += ch;
+    }
+  }
+
+  return result;
+}
